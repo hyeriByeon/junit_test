@@ -29,7 +29,6 @@ public class DataServer {
 			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection(DB_URL, USER_NAME, PASSWORD);
 			
-//			System.out.println("DATABASE SERVER CONNECT");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
